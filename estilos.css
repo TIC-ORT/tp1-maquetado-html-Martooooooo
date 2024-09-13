@@ -1,0 +1,146 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background-color: #3498db;
+    display: flex;
+    justify-content: space-around;
+}
+
+.logo {
+    width: 100px;
+    height: 50px;
+    background-color: #C0C0C0;
+  
+}
+
+
+.aparecelainformacion {
+    display: flex;
+    background-color: #A7D6E1;
+    padding: 20px;
+    margin-bottom: 20px;
+    height: 300px;
+    border: 0px;
+    justify-content: space-around;
+}
+
+.fotoizquierda {
+    width: 150px;
+    height: 60%;
+    background-color: #E0E0E0;
+    margin-right: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+    padding: 10px;
+    gap: 20px;
+}
+.texto{
+    position: relative;
+    right: 200px;
+}
+.linea-gris {
+    display:flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    height: 10%; 
+    background-color: #7f8c8d; 
+    width: 170px;
+    
+}
+
+
+.linea {
+    height: 17px;
+    background-color: #FFF;
+    margin: 0 auto;
+    width: 125px;
+}
+
+.azul {
+    background-color: #3498db;
+}
+
+h1 {
+    margin-top: 0;
+    color: #333;
+}
+
+p {
+    color: #666;
+    line-height: 1.6;
+}
+
+.cajagrande {
+    background-color: #FFF;
+    padding: 20px;
+    text-align: center;
+}
+
+.cajaadentrodelaotra {
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: space-around;
+}
+
+h2 {
+    color: #333;
+    margin-top: 0;
+}
+
+.trescajitas {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.cajitas {
+    text-align: center;
+    width: 150px;
+}
+
+.contenido {
+    width: 150px;
+    height: 150px;
+    background-color: #A7D6E1;
+    margin-bottom: 10px;
+}
+.barritaDeAbajo {
+    background-color: #5A5A5A;
+    height: 50px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+.linea-blanca{
+    width: 100px;
+    height: 10px;
+    position: relative;
+    bottom: -25px;
+    display: flex;
+    justify-content: space-around;
+    position: relative;
+    background-color: white;
+}
+
+
+
+#xd1{
+    width: 300px;
+    height: 5px;
+    right: -80px;
+}
+#xd2{
+    height: 5px;
+    right: -400px;
+}
+
+#xd3{
+    height: 5px;
+    right:-100px;
+}
